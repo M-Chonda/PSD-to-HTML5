@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    outline: none;
+}
+
+#Top-Section {
+    width: 100%;
+    height: 700px;
+    background-image: cover;
+    background-repeat: no-repeat;
+    background: url(./Image.png);
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+#Logo {
+    font-size: 32px;
+    width: 10%;
+    text-align: center;
+}
+
+#Navigations {
+    display: flex;
+    margin-left: auto;
+}
+
+#Navigations p {
+    margin-left: 40px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#active {
+    color: green;
+    cursor: pointer;
+}
+
+#Navigations p:hover {
+    color: green;
+    cursor: pointer;
+}
+
+
+/* Banner */
+
+#Banner-Heading {
+    font-size: 52px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#Banner-Description {
+    font-size: 42px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#Banner-Buttons {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+#Banner-Button1 {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: rgb(0, 231, 0);
+}
+
+#Banner-Button2 {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 20px;
+    background: rgb(255, 255, 255);
+}
+
+
+/* Top Cards */
+
+#Top-Cards {
+    display: flex;
+    margin-top: 100px;
+}
+
+#Card1 {
+    width: 100%;
+    height: 150px;
+    color: white;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.Card-Title {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.Card-Description {
+    color: rgb(182, 182, 182);
+}
+
+#Card2 {
+    width: 100%;
+    height: 150px;
+    color: white;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+#Card3 {
+    width: 100%;
+    height: 150px;
+    color: white;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#Bottom-section {
+    background-color: white;
+    width: 100%;
+    height: 700px;
+}
+
+#Bottom-Heading {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 100px;
+    color: gray;
+}
+
+#Bottom-Description {
+    font-size: 42px;
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+}
+
+#bottom-cards {
+    display: flex;
+    margin-top: 50px;
+}
+
+.bottom-card-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.bottom-Card {
+    height: 250px;
+    width: 25%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border: 1px solid greenyellow;
+    background-color: rgb(67, 214, 207);
+}
+
+.bottom-Card img {
+    width: 100%;
+    height: 150px;
+}
